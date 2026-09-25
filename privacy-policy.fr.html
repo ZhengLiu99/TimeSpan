@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de confidentialité - TimeSpan</title>
+    <link rel="stylesheet" href="legal.css">
+</head>
+<body class="privacy">
+    <div class="container">
+        <nav class="lang-nav" aria-label="Language">
+            <a href="privacy-policy.html" lang="en">English</a>
+            <a href="privacy-policy.zh-Hans.html" lang="zh-Hans">简体中文</a>
+            <a href="privacy-policy.zh-Hant.html" lang="zh-Hant">繁體中文</a>
+            <a href="privacy-policy.ja.html" lang="ja">日本語</a>
+            <a href="privacy-policy.ko.html" lang="ko">한국어</a>
+            <a href="privacy-policy.de.html" lang="de">Deutsch</a>
+            <a href="privacy-policy.fr.html" lang="fr" aria-current="page">Français</a>
+            <a href="privacy-policy.es.html" lang="es">Español</a>
+        </nav>
+        <h1>Politique de confidentialité</h1>
+        <p class="date-info"><strong>Date d’entrée en vigueur :</strong> 2026-02-09<br><strong>Dernière mise à jour :</strong> 2026-08-03</p>
+        <p>TimeSpan (« l’App », « nous » ; aussi désignée dans les identifiants techniques sous le nom Spanoe) est une application de compte à rebours et de suivi de dates. Nous accordons de l’importance à votre vie privée. La présente politique explique quelles données l’App traite, pourquoi, et quels choix s’offrent à vous.</p>
+        <h2>1. Données que nous traitons</h2>
+        <h3>1.1 Données que vous créez dans l’App</h3>
+        <p>L’App conserve principalement sur votre appareil :</p>
+        <ul>
+            <li>les données d’événement : titre, date cible, mode de décompte (compte à rebours ou jours écoulés), répétition, rappels, épinglage, icône, couleur ou dégradé, et options d’affichage associées ;</li>
+            <li>les catégories ;</li>
+            <li>une image de couverture ou d’arrière-plan choisie pour un événement, le cas échéant ;</li>
+            <li>les préférences de l’App (thème, disposition, réglages liés aux notifications, préférence de synchronisation iCloud, et éléments similaires).</li>
+        </ul>
+        <p><em>Note technique :</em> ces données sont stockées avec <code>SwiftData</code> et <code>UserDefaults</code>, et peuvent être placées dans un conteneur <strong>App Group</strong> afin que l’application principale et les widgets accèdent à la même base et au même cache d’images.</p>
+        <h3>1.2 Photos sélectionnées</h3>
+        <p>Si vous choisissez une image de couverture ou d’arrière-plan, l’App lit la photo sélectionnée (par exemple via le sélecteur de photos du système), vous permet éventuellement de la recadrer, et enregistre l’image traitée <strong>localement</strong> comme partie de l’événement, y compris dans l’App Group pour les widgets. Nous ne téléversons <strong>pas</strong> vos photos vers nos serveurs.</p>
+        <h3>1.3 Importation du calendrier</h3>
+        <p>Si vous utilisez l’importation du calendrier ou la synchronisation des jours fériés, l’App demande l’accès à vos calendriers système et peut lire des événements, y compris les jours fériés et les autres événements que vous choisissez d’importer, afin de créer ou de mettre à jour des comptes à rebours. Nous ne téléversons <strong>pas</strong> vos données de calendrier vers nos serveurs.</p>
+        <h3>1.4 Notifications</h3>
+        <p>Si vous activez les rappels, l’App programme des <strong>notifications locales</strong> sur votre appareil. Nous n’envoyons <strong>pas</strong> de notifications push distantes à des fins commerciales.</p>
+        <p>Si vous activez la synchronisation iCloud/CloudKit, l’App peut s’inscrire à des <strong>notifications distantes silencieuses</strong> pour que CloudKit d’Apple maintienne la synchronisation. Ce sont des signaux système, et non des messages commerciaux.</p>
+        <h3>1.5 Widgets</h3>
+        <p>Les widgets de l’écran d’accueil et les widgets associés lisent les données de compte à rebours et de période, ainsi que les images d’événement éventuelles, dans le magasin partagé de l’App Group sur votre appareil, afin d’afficher la progression sans ouvrir l’App. Ces données restent sur votre appareil, sauf si vous activez la synchronisation iCloud décrite ci-dessous.</p>
+        <h3>1.6 Achats (StoreKit)</h3>
+        <p>Si vous achetez TimeSpan Pro (abonnement et/ou déverrouillage à vie, selon l’offre dans l’App), Apple traite le paiement. Nous utilisons <code>StoreKit</code> pour déterminer votre droit d’accès. Nous ne recevons pas l’intégralité de vos informations de paiement.</p>
+        <h3>1.7 iCloud / CloudKit</h3>
+        <p>Si vous activez la synchronisation iCloud/CloudKit (fonction Pro), les données de l’App peuvent être stockées dans votre compte iCloud et synchronisées entre vos appareils. Apple agit comme prestataire d’iCloud/CloudKit selon ses propres règles.</p>
+        <h3>1.8 Courriel de retour</h3>
+        <p>Si vous envoyez un retour, l’App peut ouvrir votre client de messagerie (par exemple via <code>mailto:</code>). Le contenu de ce message est traité par votre fournisseur de messagerie, et non par nos serveurs.</p>
+        <h2>2. Autorisations demandées</h2>
+        <p>Selon les fonctions utilisées, l’App peut demander :</p>
+        <ul>
+            <li><strong>Photos (lecture / sélection)</strong> : pour choisir et recadrer une image d’arrière-plan.</li>
+            <li><strong>Calendriers</strong> : pour importer des événements et des jours fériés comme comptes à rebours.</li>
+            <li><strong>Notifications</strong> : pour programmer des rappels locaux.</li>
+        </ul>
+        <p>Vous pouvez modifier ces autorisations à tout moment dans Réglages iOS.</p>
+        <h2>3. Services tiers</h2>
+        <p>Dans cette version, l’App n’inclut <strong>pas</strong> de SDK publicitaire ou d’analyse tiers. Les achats et, s’ils sont activés, la synchronisation iCloud sont fournis par Apple.</p>
+        <h2>4. Conservation et suppression</h2>
+        <ul>
+            <li>Vous pouvez supprimer des événements ou des catégories dans l’App.</li>
+            <li>Vous pouvez utiliser « Supprimer toutes les données » dans Réglages pour retirer les données locales de l’App, y compris les caches de widgets partagés le cas échéant.</li>
+            <li>Si vous utilisez iCloud/CloudKit, la suppression peut aussi affecter les données synchronisées, selon le comportement de synchronisation d’Apple.</li>
+        </ul>
+        <h2>5. Sécurité</h2>
+        <p>Nous nous appuyons sur les fonctions de sécurité d’iOS (code ou biométrie gérés par le système, bac à sable de l’app et sécurité d’iCloud) pour protéger vos données. Nous suivons les pratiques habituelles de la plateforme et limitons l’accès aux données.</p>
+        <h2>6. Vie privée des enfants</h2>
+        <p>L’App n’est pas destinée aux enfants n’ayant pas l’âge auquel le consentement parental est requis. Si vous pensez qu’un enfant nous a fourni des données personnelles, contactez-nous.</p>
+        <h2>7. Utilisateurs internationaux</h2>
+        <p>Vos données sont traitées sur votre appareil et, si iCloud/CloudKit est activé, stockées dans l’infrastructure d’Apple, qui peut se trouver dans d’autres pays.</p>
+        <h2>8. Modifications de cette politique</h2>
+        <p>Nous pouvons mettre à jour cette politique de temps à autre et modifier la date de « Dernière mise à jour » ci-dessus.</p>
+        <h2>9. Nous contacter</h2>
+        <p>Questions relatives à cette politique de confidentialité :</p>
+        <p>E-mail : <code>philiptrip1975@gmail.com</code></p>
+        <div class="footer">&copy; 2026 TimeSpan. Tous droits réservés.</div>
+    </div>
+</body>
+</html>
